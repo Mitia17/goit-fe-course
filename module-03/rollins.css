@@ -1,0 +1,49 @@
+.lifestyle {
+    font-size: 30px;
+    display: inline;
+    margin-right: 150px;
+    margin-left: 300px;
+}
+
+.photodiary {
+    font-size: 30px;
+    display: inline;
+    margin-right: 150px;
+}
+
+.music {
+    font-size: 30px;
+    display: inline;
+    margin-right: 150px;
+}
+
+.travel {
+    font-size: 30px;
+    display: inline;
+}
+
+.canvas {
+    width: 420px;
+    height: 277px;
+    background-image: url(/canvas.png);
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.lf {
+    margin-left: 150px;
+}
+
+.More {
+    margin-left: 150px;
+}
+.First {
+    margin-left: 150px;
+    max-width: 400px;
+}
+.cofee{
+    margin-left: 150px;
+    width: 419px;
+    height: 280px;
+    background-image: url(/cofee.png);
+}
