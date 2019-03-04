@@ -28,10 +28,12 @@
     background-image: url(/canvas.png);
     margin-top: 100px;
     margin-left: 150px;
+    position: relative;
 }
 
 .lf {
     margin-left: 150px;
+    max-width: 50px;
 }
 
 .More {
@@ -42,8 +44,20 @@
     max-width: 400px;
 }
 .cofee{
-    margin-left: 150px;
+    margin-left: 600px;
     width: 419px;
     height: 280px;
     background-image: url(/cofee.png);
+    position: relative;
+}
+.load {
+width: 164px;
+height: 58px;
+background-image: url(/LoadMore.png);
+margin-left: 600px;
+margin-top: 50px;
+}
+/*.cofan {
+margin-left: 750px;
+margin-bottom: 100px;
 }
