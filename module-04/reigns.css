@@ -432,78 +432,112 @@
     margin-top: 10px;
 
 }
-
+.tablo {
+    width: 500px;
+}
 .tablet {
-
-    background-image: url(./planshet.png);
 
     height: 262px;
 
     width: 350px;
 
 }
-
+.tabl {
+    max-width: 300px;
+}
+.tabl::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 136px;
+    height: 3px;
+    background-color: green;
+    margin-top: 15px;
+}
 .g1 {
 
-    font-size: 20px;
+    font-size: 14px;
 
     text-align: left;
 
     flex-direction: column;
 
-    max-width: 200px;
+    max-width: 335px;
 
 }
-
+.girlu {
+    max-width: 900px;
+    margin-top: -230px;
+}
 .girls {
-
-    background-image: url(./telki.png);
-
-    height: 261px;
-
-    width: 347px;
 
     margin-left: 500px;
 
-    margin-top: -550px;
+    margin-top: -500px;
 
 }
-
+.girl1 {
+    max-width: 385px;
+    text-align: center;
+    margin-left: 470px;
+}
+.girl1::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 136px;
+    height: 3px;
+    background-color: green;
+    margin-left: 50px;
+    margin-top: 15px;
+}
 .g2 {
 
-    font-size: 20px;
+    font-size: 14px;
 
     text-align: center;
 
     max-width: 200px;
 
     margin-left: 500px;
+    max-width: 335px;
 
+}
+.busi {
+    max-width: 335px;
+margin-left: 1000px;
+margin-top: -222px;
 }
 
 .bus {
 
-    background-image: url(./bus.png);
 
     height: 265px;
 
     width: 340px;
 
-    margin-left: 1000px;
-
     margin-top: -570px;
 
 }
-
+.bus1 {
+    text-align: right;
+}
+.bus1 ::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 136px;
+    height: 3px;
+    background-color: green;
+}
 .g3 {
 
-    font-size: 20px;
+    font-size: 14px;
 
     text-align: center;
 
-    max-width: 200px;
+    max-width: 335px;
 
-    margin-left: 1100px;
 
 }
 
@@ -536,9 +570,4 @@
     height: 50px;
 
     width: 160px;
-
-    margin-left: 1100px;
-
-    margin-top: -100px;
-
 }
