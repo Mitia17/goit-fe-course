@@ -1,10 +1,4 @@
-const Priority = {
-    LOW: 0,
-    NORMAL: 1,
-    HIGH: 2,
-  };
-  const notepad = {
-    notes: [],
+  const Notepad = function Notepad(notes = []) {
     getNotes() {
       
     },
@@ -30,7 +24,6 @@ const Priority = {
       
     },
   };
-
 
 
   notepad.saveNote({
@@ -66,54 +59,3 @@ const Priority = {
   });
   
   console.log('Все текущие заметки: ', notepad.getNotes());
-
-  
-  
-  
-  notepad.updateNotePriority('id-4', Priority.NORMAL);
-  
-  console.log(
-    'Заметки после обновления приоритета для id-4: ',
-    notepad.getNotes(),
-  );
-  
-  
-  notepad.updateNotePriority('id-3', Priority.LOW);
-  
-  console.log(
-    'Заметки после обновления приоритета для id-3: ',
-    notepad.getNotes(),
-  );
-  
-  
-  console.log(
-    'Отфильтровали заметки по ключевому слову "html": ',
-    notepad.filterNotesByQuery('html'),
-  );
-  
-  
-  console.log(
-    'Отфильтровали заметки по ключевому слову "javascript": ',
-    notepad.filterNotesByQuery('javascript'),
-  );
-  
-  
-  console.log(
-    'Отфильтровали заметки по нормальному приоритету: ',
-    notepad.filterNotesByPriority(Priority.NORMAL),
-  );
-  
-  
-  notepad.updateNoteContent('id-3', {
-    title: 'Get comfy with React.js or Vue.js',
-  });
-  
-  console.log(
-    'Заметки после обновления контента заметки с id-3: ',
-    notepad.getNotes(),
-  );
-  
-  
-  notepad.deleteNote('id-2');
-  console.log('Заметки после удаления с id -2: ', notepad.getNotes());
-  
